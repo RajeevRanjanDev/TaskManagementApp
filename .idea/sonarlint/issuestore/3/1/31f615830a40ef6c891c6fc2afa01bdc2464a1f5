@@ -1,0 +1,12 @@
+
+_
+java:S1128"=Remove this unused import 'play.data.validation.Constraints'.(Ë×Æ˜þÿÿÿÿ8ÝÓ†–¿.
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—›îˆ8¶ Ì•¿.
+c
+java:S1126$"AReplace this if-then-else statement by a single return statement.(‰—¹ñÿÿÿÿÿ8¿ö¥–¿.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(öª†ßÿÿÿÿÿ8¶ Ì•¿.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(—›îˆ8¶ Ì•¿.
+j
+java:S1192."MUse already-defined constant 'message' instead of duplicating its value here.(Ø…È„8‘¶À–¿.

@@ -1,0 +1,4 @@
+2020-08-17 10:14:53,299 [INFO] from application in ForkJoinPool-1-worker-1 - Creating Pool for datasource 'default'
+2020-08-17 10:14:54,513 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-1-worker-1 - Database [default] connected at jdbc:postgresql://localhost:5432/task_mgmt
+2020-08-17 10:14:56,041 [INFO] from application in ForkJoinPool-1-worker-1 - ApplicationTimer demo: Starting application at 2020-08-17T04:44:56.039Z
+2020-08-17 10:14:56,922 [INFO] from play.api.Play in ForkJoinPool-1-worker-1 - Application started (Dev)

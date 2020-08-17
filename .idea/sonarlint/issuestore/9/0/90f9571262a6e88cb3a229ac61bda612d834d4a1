@@ -1,0 +1,23 @@
+
+0
+java:S1220""Move this file to a named package.
+V
+java:S1128"ARemove this unused import 'play.data.validation.ValidationError'.(ßå;
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+A
+java:S1128"+Remove this unused import 'play.i18n.Lang'.(ƒ‹’
+>
+java:S1128"(Remove this unused import 'play.libs.F'.(– è›
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
+j
+java:S1128"ORemove this unused import 'play.data.validation.Constraints.RequiredValidator'.(ùáİ¢ùÿÿÿÿ
+H
+java:S1128"2Remove this unused import 'play.data.DynamicForm'.(‘ëÏŞ
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+Z
+java:S1128"DRemove this unused import 'com.fasterxml.jackson.databind.JsonNode'.(–×ª
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
