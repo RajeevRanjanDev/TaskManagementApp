@@ -1,4 +1,5 @@
 # Task Management Application in play 2.5.x
+Database name would be task_mgmt
 Request would be in this way 
 Here Status will be only OPEN,CLOSED,IN_PROGRESS,IN_REVIEW,ERROR
 
