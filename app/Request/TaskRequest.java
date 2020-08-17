@@ -30,7 +30,7 @@ public class TaskRequest
     public List<String> tags =new ArrayList<>();
     @StatusValidator
     public String status= StatusEnum.OPEN.getStautsType();
-    @Formats.DateTime(pattern="yyyy-MM-dd")
+    @JsonFormat(pattern = "yyyy-MM-dd")
     public Date created_at;
     @Override
     public String toString() {

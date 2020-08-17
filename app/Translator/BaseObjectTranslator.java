@@ -1,4 +1,4 @@
-package utils;
+package Translator;
 
 import org.modelmapper.ModelMapper;
 import javax.inject.Inject;

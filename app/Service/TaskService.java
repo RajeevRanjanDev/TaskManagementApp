@@ -52,10 +52,7 @@ public class TaskService {
              processQueryMap(entry.getKey(),value.substring(1,value.length()-1),page,pageSize,sortBy,sortMode,  expressionList);
         }
         setSorting(sortMode.toString(),sortBy.toString(),expressionList);
-
-        List<Task> taskList=   expressionList.findList();
-
-
+        List<Task> taskList=getTaskList(page,pageSize,expressionList);
         return taskList.stream().map(task -> taskTranslator.translateTaskToSuccessTask(task)).collect(Collectors.toList());
 
     }
@@ -92,6 +89,15 @@ public class TaskService {
                     expressionList.orderBy().desc(sortBy);
                 }
 
+
+            }
+        }
+        private List<Task> getTaskList(StringBuilder page,StringBuilder pageSize,ExpressionList<Task> expressionList) {
+            if (page.length() != 0 && pageSize.length() != 0) {
+                return expressionList.findPagedList(Integer.parseInt(page.toString()) - 1, Integer.parseInt(pageSize.toString())).getList();
+
+            } else {
+                return expressionList.findList();
 
             }
         }

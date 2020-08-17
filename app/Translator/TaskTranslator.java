@@ -6,7 +6,6 @@ import models.Task;
 import org.modelmapper.ModelMapper;
 import response.TaskErrorResponse;
 import response.TaskSuccessResponse;
-import utils.BaseObjectTranslator;
 
 import javax.inject.Inject;
 
@@ -17,7 +16,6 @@ public class TaskTranslator extends BaseObjectTranslator {
     }
     public Task translateTaskRequestToTask(TaskRequest request)
     {
-        request.setStatus(request.getStatus().toLowerCase());
      return    map(request,Task.class);
     }
     public TaskErrorResponse translateTaskRequestToErrorTask(TaskRequest request,String error)
@@ -34,7 +32,6 @@ public class TaskTranslator extends BaseObjectTranslator {
     }
     public TaskSuccessResponse translateTaskToSuccessTask(Task request)
     {
-        request.setStatus(request.getStatus().toUpperCase());
         return  map(request, TaskSuccessResponse.class);
 
     }
