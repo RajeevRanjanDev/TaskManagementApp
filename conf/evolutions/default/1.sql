@@ -3,13 +3,6 @@
 
 # --- !Ups
 
-create table book (
-  id                            serial not null,
-  title                         varchar(255),
-  price                         integer,
-  author                        varchar(255),
-  constraint pk_book primary key (id)
-);
 
 create table task (
   id                            serial not null,
@@ -24,7 +17,6 @@ create table task (
 
 # --- !Downs
 
-drop table if exists book cascade;
 
 drop table if exists task cascade;
 
